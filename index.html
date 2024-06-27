@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music player</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/9cd0f99006.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="title">Music player</div>
+    <div class="hero">
+      <div class="container">
+        <audio
+          src="./music/Bektor Petrovic - Mni Bugd (Official Audio).mp3"
+        ></audio>
+        <div class="upper">
+          <p class="name">Bektor Petrovic - Mni Bugd</p>
+        </div>
+        <div class="lower">
+          <div class="circle"></div>
+          <div class="controls">
+            <button id="prevBtn">
+              <span><i class="fa-solid fa-backward"></i></span>
+            </button>
+            <div>
+              <button id="playBtn">
+                <span><i class="fa-solid fa-play"></i></span>
+              </button>
+            </div>
+            <button id="nextBtn">
+              <span><i class="fa-solid fa-forward"></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="audio.js"></script>
+  </body>
+</html>
